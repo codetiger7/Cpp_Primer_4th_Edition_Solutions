@@ -1,7 +1,7 @@
-# Cpp_Primer_4th_Edition_Solutions
+#Cpp_Primer_4th_Edition_Solutions
 
 
-- [Chapter 1. Getting Started](chapter1/readme.md)
+- [Chapter 1. Getting Started](chap1/readme.md)
 
 ## Part I: The Basics
 
