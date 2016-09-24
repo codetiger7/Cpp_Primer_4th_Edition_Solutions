@@ -5,7 +5,7 @@
 
 ## Part I: The Basics
 
-- [Chapter 2. Variables and Basic Types](chapter2/readme.md)
+- [Chapter 2. Variables and Basic Types](chap2/readme.md)
 - [Chapter 3. Library Types](chapter3/readme.md)
 - [Chapter 4. Arrays and Pointers](chapter4/readme.md)
 - [Chapter 5. Expressions](chapter5/readme.md)
