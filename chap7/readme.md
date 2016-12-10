@@ -159,7 +159,7 @@ int main()
 - Legal
 -  it assigns a zero value to all the elements of an in array
 
-## [Exercise 7.20](exercises_chap7/ex_sec7_3_3.cpp)
+## [Exercise 7.20](exercises_chap7/exercises_chap7/ex_sec7_3_3.h)
 
 > Rewrite *factorial* as an iterative function.
 
