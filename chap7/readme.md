@@ -87,3 +87,91 @@ int calc(int v1, int v1)
 
 
 
+## [Exercise 7.5](ex7_5/ex7_5/main.cpp)
+
+> Write a function that takes an *int* and a pointer to an *int*
+> and returns the larger of the *int* value of the value to
+> which the pointer points.
+> What type should you use for the pointer?
+> 
+
+
+## [Exercise 7.17]
+
+> When is it valid to return a reference ?
+> A const reference ?
+
+- Return a reference when you want to change the object referred to after the return.
+- Return a const reference when you do not want to change the object referred to after return.
+- Not do NOT return a ref to a local object.
+
+
+## [Exercise 8.18]
+
+> What potential run time problem does the following function have?
+
+```cpp
+
+string& processText()
+{
+	string text;
+	while (cin >> text)
+	{
+		/* ... */
+	}
+	
+	// ...
+	return text;
+}
+
+```
+
+- Here a reference to a local object is returned.
+- After the function is finished the **text** variable is removed from the stack (memory freed).
+- Then any reference to the object is invalid.
+
+
+## [Exercise 7.19]
+
+> Indicate whether the following program is legal.
+> If so, explain what it does; If not,
+> make it legal and then explain it.
+
+
+```cpp
+int & get(int *arry, int index)
+{ 
+	return arry[index];
+}
+
+int main()
+{
+	int ia[10];
+	
+	for (int i = 0; i != 10; ++i)
+	{
+		get(ia, i) = 0;
+	}
+}
+
+```
+
+- Legal
+-  it assigns a zero value to all the elements of an in array
+
+## [Exercise 7.20](exercises_chap7/ex_sec7_3_3.cpp)
+
+> Rewrite *factorial* as an iterative function.
+
+
+
+
+
+
+
+
+
+
+
+
+
