@@ -6,6 +6,19 @@
 #include <vector>
 
 #include "ex_sec7_2.h"
+#include "ex_sec7_3_3.h"
+
+TEST(Exercise7_21, iterative_factorial)
+{
+    using namespace ex7_21;
+    
+    EXPECT_EQ(1, factorial(0));
+    EXPECT_EQ(1, factorial(1));
+    EXPECT_EQ(2, factorial(2));
+    EXPECT_EQ(6, factorial(3));
+    EXPECT_EQ(24, factorial(4));
+    EXPECT_EQ(120, factorial(5));
+}
 
 
 TEST(Exercise7_14, sum_elements_of_vector_of_doubles)
