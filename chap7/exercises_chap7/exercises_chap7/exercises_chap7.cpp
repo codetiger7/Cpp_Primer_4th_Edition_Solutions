@@ -6,7 +6,29 @@
 #include <vector>
 
 #include "ex_sec7_2.h"
-#include "ex_sec7_3_3.h"
+//#include "ex_sec7_3_3.h"
+#include "ex_sec7_4.h"
+
+
+TEST(Exercise7_23, check_declarations)
+{
+    using namespace ex_sec7_4;
+    
+    // a) illegal, becaues functions must take ony one argument
+    //  calc(23.4, 55.1)
+    
+    // b) legal
+    count("abcda", 'a');
+    
+    // c) legal
+    calc(66);
+    
+    // d) legal, but double will be implicitly converted to an int, truncated
+    sum(vec.begin(), vec.end(), 3.8);
+    
+    
+    
+}
 
 TEST(Exercise7_21, iterative_factorial)
 {

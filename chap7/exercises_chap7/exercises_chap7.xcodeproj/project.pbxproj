@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		03B02AB41DF8850400E0F93D /* exercises_chap7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B02AB31DF8850400E0F93D /* exercises_chap7.cpp */; };
-		03B02ABA1DFB8EDB00E0F93D /* ex_sec7_2_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03B02AB91DFB8EDB00E0F93D /* ex_sec7_2_6.cpp */; };
 		03B02B081DFC8DD900E0F93D /* ex_sec7_3_3.h in Sources */ = {isa = PBXBuildFile; fileRef = 03B02B071DFC8DD900E0F93D /* ex_sec7_3_3.h */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,8 @@
 		03B02AA91DF87DDD00E0F93D /* exercises_chap7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercises_chap7; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B02AB31DF8850400E0F93D /* exercises_chap7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exercises_chap7.cpp; sourceTree = "<group>"; };
 		03B02AB51DF8866D00E0F93D /* ex_sec7_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ex_sec7_2.h; sourceTree = "<group>"; };
-		03B02AB91DFB8EDB00E0F93D /* ex_sec7_2_6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ex_sec7_2_6.cpp; path = ../ex_sec7_2_6.cpp; sourceTree = "<group>"; };
 		03B02B071DFC8DD900E0F93D /* ex_sec7_3_3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ex_sec7_3_3.h; sourceTree = "<group>"; };
+		03B02B091DFCB11600E0F93D /* ex_sec7_4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ex_sec7_4.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +61,10 @@
 		03B02AAB1DF87DDD00E0F93D /* exercises_chap7 */ = {
 			isa = PBXGroup;
 			children = (
-				03B02AB91DFB8EDB00E0F93D /* ex_sec7_2_6.cpp */,
 				03B02AB31DF8850400E0F93D /* exercises_chap7.cpp */,
 				03B02AB51DF8866D00E0F93D /* ex_sec7_2.h */,
 				03B02B071DFC8DD900E0F93D /* ex_sec7_3_3.h */,
+				03B02B091DFCB11600E0F93D /* ex_sec7_4.h */,
 			);
 			path = exercises_chap7;
 			sourceTree = "<group>";
@@ -128,7 +127,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B02B081DFC8DD900E0F93D /* ex_sec7_3_3.h in Sources */,
-				03B02ABA1DFB8EDB00E0F93D /* ex_sec7_2_6.cpp in Sources */,
 				03B02AB41DF8850400E0F93D /* exercises_chap7.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +264,7 @@
 				03B02AB21DF87DDD00E0F93D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

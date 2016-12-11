@@ -164,6 +164,53 @@ int main()
 > Rewrite *factorial* as an iterative function.
 
 
+## [Exercises 7.21]
+> What would happen if the stopping condition in **factorial** were:
+
+```cpp
+if (val != 0)
+```
+
+- stop condition will only change behaviour if trying to calculate factor of negative integers.
+
+## [Exercise 7.22](chap7/exercises_chap7/exercises_chap7/ex_sec7_3)
+
+> Write the prototypes for each of the following functions:
+> 
+> (a) A function named **compare** with two parameters that are references to a class named **matrix** with a return value of type **bool**.
+> (b) A function named **change_val** that returns a **vector<int>** iterator and takes two parameters: one is an **int** and the other is an iterator for a **vector<int>**.
+
+
+
+
+## [Exercise 7.24](chap7/exercises_chap7/exercises_chap7/ex_sec7_4_1)
+
+> Which, if any, of the following declarations are errors?
+> Why?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
